@@ -2,13 +2,8 @@ require("dotenv").config();
 const functions = require("firebase-functions");
 const admin = require("firebase-admin");
 const { v4: uuidv4 } = require("uuid");
-const fs = require("fs");
 
-const serviceAccount = JSON.parse(
-  fs.readFileSync(
-    "../hicapps-andre-simon-firebase-adminsdk-n732x-88efb355a2.json"
-  )
-);
+const serviceAccount = require("./hicapps-andre-simon-firebase-adminsdk-n732x-88efb355a2.json");
 
 const app = admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
