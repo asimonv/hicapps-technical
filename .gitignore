@@ -66,7 +66,7 @@ node_modules/
 .env
 
 # firebase config file
-hicapps-andre-simon-firebase-adminsdk-n732x-88efb355a2.json
+functions/hicapps-andre-simon-firebase-adminsdk-n732x-88efb355a2.json
 
 # functions 
 functions/node_modules/
