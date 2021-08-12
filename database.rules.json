@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "pacientes": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}
